@@ -18,7 +18,7 @@ class GoogleSuggestions extends Component {
     const {searchInput} = this.state
     const {suggestionsList} = this.props
     const searchResults = suggestionsList.filter(eachItem =>
-      eachItem.name.includes(searchInput),
+      eachItem.suggestion.toLowerCase().includes(searchInput),
     )
 
     return (
