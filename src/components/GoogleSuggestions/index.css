@@ -1,0 +1,8 @@
+* {
+  margin: 0px;
+}
+
+.bg-container {
+  height: 100vh;
+  background-color: aquamarine;
+}
